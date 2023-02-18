@@ -307,6 +307,9 @@ COPY \$FOO /quux # COPY $FOO /quux
 Environment variables are supported by the following list of instructions in
 the `Dockerfile`:
 
+- `RUN`
+- `CMD`
+- `ENTRYPOINT`
 - `ADD`
 - `COPY`
 - `ENV`
